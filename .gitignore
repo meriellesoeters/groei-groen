@@ -37,4 +37,4 @@ node_modules/
 
 # idea files
 .idea/
-.DS-Store
+.DS_Store
