@@ -1,10 +1,11 @@
 import React from 'react';
 
+import { Header } from '../../components/Header';
+
 const HomeScene = () => (
     <div className="HomeContainer">
-        <text>
-            home
-        </text>
+        <Header/>
+        <div className="hugeDiv"/>
     </div>
 );
 

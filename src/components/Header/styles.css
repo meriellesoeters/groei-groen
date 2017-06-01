@@ -1,0 +1,18 @@
+.Header {
+    border-bottom: 2px solid #222;
+    height: 40px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+.HeaderButton {
+    margin: 10px;
+    display: inline-block;
+}
+
+.hugeDiv {
+    background-color: darkcyan;
+    height: 1000px;
+    width: 100%;
+}
