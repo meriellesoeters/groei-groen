@@ -1,0 +1,11 @@
+.BigBrandContainer {
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.BigBrandText {
+    font-size: 100px;
+    color: darkcyan;
+}

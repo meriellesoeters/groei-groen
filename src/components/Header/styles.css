@@ -1,18 +1,35 @@
-.Header {
-    border-bottom: 2px solid #222;
-    height: 40px;
-    width: 100%;
-    position: fixed;
+.HeaderContainer {
+    position: sticky;
     top: 0;
+    width: 100%;
+    height: 40px;
+    background-color: darkcyan;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.HeaderItemContainer {
+    position: relative;
+}
+
+.HeaderItems {
+    display: inline-block;
+}
+
+.HeaderItems--left {}
+
+.HeaderItems--right {
+    position: absolute;
+    right: 0;
 }
 
 .HeaderButton {
     margin: 10px;
-    display: inline-block;
+    color: #ffffff;
 }
 
 .hugeDiv {
-    background-color: darkcyan;
     height: 1000px;
     width: 100%;
 }
