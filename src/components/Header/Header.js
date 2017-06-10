@@ -5,11 +5,11 @@ const Header = () => (
   <div className="HeaderContainer">
       <div className="HeaderItemContainer">
           <div className="HeaderItems HeaderItems--left">
-              <text className="HeaderButton">Groei</text>
-              <text className="HeaderButton">Eet</text>
+              <a href="#" className="HeaderButton">Groei</a>
+              <a href="#" className="HeaderButton">Eet</a>
           </div>
           <div className="HeaderItems HeaderItems--right">
-              <text className="HeaderButton">Log in</text>
+              <a href="#" className="HeaderButton">Log in</a>
           </div>
       </div>
   </div>
