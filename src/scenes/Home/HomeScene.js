@@ -7,6 +7,7 @@ const HomeScene = () => (
     <div className="HomeContainer">
         <BigBrand />
         <Header/>
+        {/*TODO remove when homepage content is added*/}
         <div className="hugeDiv"/>
     </div>
 );
