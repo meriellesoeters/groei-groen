@@ -4,7 +4,6 @@ import { seasons } from '../../../constants';
 import './styles.css';
 
 const Seasons = () => {
-
     const seasonsList = seasons.map((season, index) => {
         return (
             <div className='seasonTextContainer'>
