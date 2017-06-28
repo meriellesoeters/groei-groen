@@ -1,3 +1,1 @@
-/**
- * Created by merielle on 28-06-17.
- */
+export { default as Months } from './Months';

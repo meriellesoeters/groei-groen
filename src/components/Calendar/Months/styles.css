@@ -1,0 +1,13 @@
+.monthsListContainer {
+    padding: 5px;
+    display: flex;
+}
+
+.monthTextContainer {
+    /* when text items should align left instead of center use flex-grow instead of margin auto */
+    /*flex-grow: 1;*/
+    margin: auto;
+}
+
+.monthText {
+}
