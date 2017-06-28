@@ -2,8 +2,8 @@ import React from 'react';
 import './styles.css';
 
 const Months = () => {
-    const months = [ 'januari', 'februari', 'maart', 'april', 'mei',
-        'juni', 'juli', 'augustus', 'september', 'oktober', 'november', 'december' ];
+    const months = [ 'mrt', 'apr', 'mei',
+        'jun', 'jul', 'aug', 'sept', 'okt', 'nov', 'dec', 'jan', 'feb' ];
 
     const monthsList = months.map((month, index) => {
         return (

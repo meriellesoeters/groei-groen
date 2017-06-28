@@ -6,8 +6,8 @@ import { Months } from './Months';
 
 const Calendar = () => (
     <div className="calendarContainer">
-        <Months/>
         <Seasons/>
+        <Months/>
         <div className="seasonalContentContainer">
             <text>groente en fruit</text>
         </div>
