@@ -1,8 +1,9 @@
 import React from 'react';
+
+import { seasons } from '../../../constants';
 import './styles.css';
 
 const Seasons = () => {
-    const seasons = [ 'Lente', 'Zomer', 'Herfst', 'Winter' ];
 
     const seasonsList = seasons.map((season, index) => {
         return (

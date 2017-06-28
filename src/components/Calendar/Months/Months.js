@@ -1,10 +1,9 @@
 import React from 'react';
+
+import { months } from '../../../constants';
 import './styles.css';
 
 const Months = () => {
-    const months = [ 'mrt', 'apr', 'mei',
-        'jun', 'jul', 'aug', 'sept', 'okt', 'nov', 'dec', 'jan', 'feb' ];
-
     const monthsList = months.map((month, index) => {
         return (
             <div className='monthTextContainer'>
