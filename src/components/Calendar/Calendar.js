@@ -3,14 +3,13 @@ import './styles.css';
 
 import { Seasons } from './Seasons';
 import { Months } from './Months';
+import { Food } from './Food';
 
 const Calendar = () => (
     <div className="calendarContainer">
         <Seasons/>
         <Months/>
-        <div className="seasonalContentContainer">
-            <text>groente en fruit</text>
-        </div>
+        <Food/>
     </div>
 );
 
