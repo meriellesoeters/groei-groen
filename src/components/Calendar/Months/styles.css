@@ -1,5 +1,7 @@
 .monthsListContainer {
-    display: flex;
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  display: flex;
 }
 
 .monthTextContainer {

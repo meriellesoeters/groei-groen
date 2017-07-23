@@ -1,8 +1,10 @@
 .seasonalContentContainer {
     /*padding: 5px;*/
     /*border: 1px solid black;*/
-    display: flex;
-    flex-direction: column;
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    grid-column: 2 / 3;
+    grid-row: 3 / 20;
     height: 300px;
 }
 
